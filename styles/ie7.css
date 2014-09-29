@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #000033;
+	background-image: url(http://ccrm.vims.edu/images/bg.gif);
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #f4f7fb;
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-left-color:#ECF0F3;
+	border-left: 3px;
+}
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 24px; font-weight: bold;	color: #86a1b1;
+	margin-bottom: 10px; 	margin-left: 0px;
+}
+h2 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #86a1b1;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+h6 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #669999;
+	margin-bottom: 10px;
+	margin-left: 2px;
+}
+p {
+	font-size: x-small;
+}
+a:link, a:visited, a:hover {
+	color: #006699;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.lborder { border-left-width: 1px; border-left-style: solid; border-left-color: #86A2B0; }
+.footertxt { font-size: 8pt; color: #61718d; line-height: 10pt; }
+.higlightstxt {
+	font-size: 9pt;
+	color: #61718d;
+}
+.box2top {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-image: url(images/box_01.jpg);
+	background-repeat: no-repeat;
+	text-align: left;
+	height: 29px;
+	width: 522px;
+	padding-left: 15px;
+	padding-top: 5px;
+	font-weight: bold;
+}
+.box2mid {
+	font-size: 12px;
+	color: #000033;
+	background-image: url(images/box_mid.jpg);
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 80px;    
+	vertical-align: top;
+	clear: right;
+	background-color: #EDF0F2;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: c5c8cd;
+	border-left-color: c5c8cd;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+.box3mid {
+	font-size: 11px;
+	color: #000033;
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 80px;    
+	vertical-align: top;
+	clear: right;
+	background-color: #FFFFFF;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-color: #FFFFFF;
+	border-left-color: #FFFFFF;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}	
+.box2base {
+	background-image: url(images/box_03.jpg);
+	background-repeat: no-repeat;
+	width: 522px;
+	clear: right;
+	height: 12px;
+}
+.box1top { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-size: 14px; color: #FFFFFF; font-weight: bold; }
+#Box_02 {float: right; width: 522px; }
+#box1tL { text-align: left; background-position: left top; vertical-align: top;  background-color: #86A2B0;}
+#box1tR { text-align: right; vertical-align: top; background-position: right top;  background-color: #86A2B0;}
+#box1tM { background-color: #86A2B0; background-image: url(images/box_top.jpg); height: 29px; width: 200px; }
+#box1body { padding: 10px; border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; border-right-color: #CCCCCC; border-left-color: #CCCCCC; background-color: #ECF0F3; font-size: 12px; color: #000033; }
+#box1bM { background-color: #ECF0F3; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #CCCCCC; height: 13px; width: 200px; }
+#navlist li { list-style-type: circle; }
+.White {
+	color: #FFF;
+}
